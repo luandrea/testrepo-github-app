@@ -9,5 +9,3 @@ repository di test per la github app
 5 6
 
 ## titolo 2
-
-c
