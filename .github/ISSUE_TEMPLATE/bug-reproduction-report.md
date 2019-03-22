@@ -7,17 +7,17 @@ assignees: ''
 
 ---
 
-== Project source code
+## Project source code
 <!--- The URL repository from which to build the application that caused the bug -->
 
-== Target frame
+## Target frame
 <!--- Branch to checkout to build the version of the application -->
 
-== Target frame
+## Target frame
 <!--- The frame level up to which parse the stack trace -->
 
-== Optional parameters
+## Optional parameters
 <!--- here you can add optional parameters in the form of -PARAMETER_NAME=PARAMETER_VALUE (e.g. -search_budget=1200) -->
 
-== Crash log
+## Crash log
 <!--- Insert here the stacktrace that have to be reproduced -->
