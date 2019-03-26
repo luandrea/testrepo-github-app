@@ -1,23 +1,28 @@
 ---
 name: Bug reproduction report
 about: Insert bug details to reproduce it
-title: ''
-labels: ''
+title: Bug reproduction report
+labels: bug
 assignees: ''
 
 ---
 
-## Project source code
-<!--- The URL repository from which to build the application that caused the bug -->
+#### Characteristics
+- **targetFrame**: [1]
+- **population**: [100]
+- **search_budget**: [1800]
+- **global_timeout**: [1800]
+- **test_dir**: [crash-reproduction-tests]
 
-## Target frame
-<!--- Branch to checkout to build the version of the application -->
+#### crashLog
 
-## Target frame
-<!--- The frame level up to which parse the stack trace -->
+#### Description
 
-## Optional parameters
-<!--- here you can add optional parameters in the form of -PARAMETER_NAME=PARAMETER_VALUE (e.g. -search_budget=1200) -->
+#### Steps to reproduce
 
-## Crash log
-<!--- Insert here the stacktrace that have to be reproduced -->
+#### Other files and URLs
+
+#### Relationships
+
+#### Help on issue template
+Preview to follow the link or open file [.github/ISSUE_TEMPLATE/bug-reproduction-report-doc.md](https://github.com/luandrea/testrepo-github-app/blob/master/.github/ISSUE_TEMPLATE/bug-reproduction-report-doc.md)
