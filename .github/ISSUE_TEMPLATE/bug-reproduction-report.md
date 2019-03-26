@@ -8,11 +8,11 @@ assignees: ''
 ---
 
 #### Characteristics
-- **targetFrame**: [1]
-- **population**: [100]
-- **search_budget**: [1800]
-- **global_timeout**: [1800]
-- **test_dir**: [crash-reproduction-tests]
+- **targetFrame**: 1
+- **population**: 100
+- **search_budget**: 1800
+- **global_timeout**: 1800
+- **test_dir**: crash-reproduction-tests
 
 #### crashLog
 
