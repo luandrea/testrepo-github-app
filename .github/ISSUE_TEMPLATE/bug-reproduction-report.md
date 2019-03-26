@@ -11,7 +11,7 @@ assignees: ''
 
 #### Repository
 
-- **repositoryURL**: https://github.com/my-repository
+- **repositoryURL**: https://github.com/my-repository/my-project.git
 - **pomPath**: module-folder/pom.xml
 - **branch**: master
 
