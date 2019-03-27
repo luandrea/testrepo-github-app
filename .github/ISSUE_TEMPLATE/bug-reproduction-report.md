@@ -11,8 +11,8 @@ assignees: ''
 
 #### Repository
 
-- **repositoryURL**: https://github.com/my-repository/my-project.git
-- **pomPath**: module-folder/pom.xml
+- **buildType**: [maven|gradle]
+- **projectPath**: project-folder
 - **branch**: master
 
 #### Reproduction parameters
@@ -21,7 +21,6 @@ assignees: ''
 - **population**: 100
 - **search_budget**: 1800
 - **global_timeout**: 1800
-- **test_dir**: crash-reproduction-tests
 
 #### crashLog
 
