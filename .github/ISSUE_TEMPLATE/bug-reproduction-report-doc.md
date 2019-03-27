@@ -2,11 +2,11 @@
 
 #### Repository
 
-- **repositoryURL**: https://github.com/my-repository/my-project.git
-The Git repository from which to get the source code to build the application that caused the stacktrace.
+- **buildType**: [maven|gradle]
+Specify how to build the project.
 
-- **pomPath**: module-folder/pom.xml
-The path of the pom.xml of the application to build inside the repository.
+- **projectPath**: project-folder
+The path of the project to build inside the repository.
 
 - **branch**: master
 The branch to checkout to build the correct version of the application.
@@ -24,9 +24,6 @@ The search budget in seconds with a default value of 1800.
 
 - **global_timeout**: 1800 (Optional)
 The global timeout in seconds, after which the execution stops if the search is stuck with a default value of 1800 (the timeout is only reached if the search does not improve after 1800 seconds).
-
-- **test_dir**: crash-reproduction-tests (Optional)
-The directory where the tests are generated with a default value of crashreproduction-tests.
 
 #### crashLog
 
