@@ -10,7 +10,7 @@ Specify how to build the project.
 
 The path of the project to build inside the repository.
 
-- **branch**: master
+- **versionReference**: master
 
 The branch or tag or commit id to checkout to build the correct version of the application.
 
