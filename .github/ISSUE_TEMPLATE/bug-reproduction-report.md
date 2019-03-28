@@ -13,7 +13,7 @@ assignees: ''
 
 - **buildType**: [maven|gradle]
 - **projectPath**: project-folder
-- **branch**: master
+- **versionReference**: master
 
 #### Reproduction parameters
 
